@@ -10,10 +10,10 @@ Você precisará de um compilador C instalado na sua máquina:
 
 ### Passo a passo para compilar via Terminal
 
-1. Faça o clone deste repositório ou baixe os arquivos fonte (`main.c`, `func.c` e `func.h`).
+1. Faça o clone deste repositório ou baixe os arquivos fonte (`main.c`).
 2. Abra o terminal na pasta onde os arquivos foram salvos.
 3. Como o projeto é dividido em múltiplos arquivos, você precisa compilar o `main.c` e o `func.c` juntos. Execute o comando abaixo dependendo do seu compilador:
 
 **Usando GCC (Linux / Windows MinGW):**
 ```bash
-gcc main.c gerador.c -o gerador_de_senhas
+gcc main.c -o gen_password
